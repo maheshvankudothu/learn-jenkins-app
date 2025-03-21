@@ -16,9 +16,10 @@ pipeline {
                 npm --version
                 npm ci
                 npm rum build
+                ls -la
             '''
             }
-            
+
         }
     }
 }
